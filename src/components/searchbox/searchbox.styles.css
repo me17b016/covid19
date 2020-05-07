@@ -46,6 +46,7 @@
   height: auto;
   max-height: 400px;
   width: 50%;
+  background-color: white;
   overflow-y: auto;
   display: absolute;
   position: absolute;
