@@ -1,0 +1,75 @@
+.searchbox {
+  width: 250px;
+}
+
+.searchbox-searchbar {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 4px;
+}
+
+.searchbox-searchicon {
+  height: 42px;
+  flex: 2;
+  border-radius: 4px 0px 0px 4px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+.searchbox-inputbox {
+  flex: 3;
+  margin: 0px;
+}
+.searchbox-input{
+  height: 40px;
+  border-radius: 0px 4px 4px 0px;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+  font-size: 1rem;
+  font-weight: 700;
+  color: black;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.searchbox-suggestions-hidden {
+  display: none;
+}
+.searchbox-suggestions {
+  height: auto;
+  max-height: 400px;
+  width: 50%;
+  background-color: aqua;
+  overflow-y: auto;
+  display: absolute;
+  position: absolute;
+  margin-top: 5px;
+  left: 30%;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.highlight {
+  background-color: greenyellow;
+}
+.searchbox-suggestions-district {
+  height: 35px;
+  width: auto;
+  padding-top: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+.searchbox-suggestions-district:hover {
+  background-color: #e0e0e0;
+}
+.searchbox-districtname {
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 10px;
+}

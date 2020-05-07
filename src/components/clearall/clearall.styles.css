@@ -1,0 +1,11 @@
+.clearall {
+  background-color: black;
+  color: aliceblue;
+  font-size: 0.8rem;
+  padding: 0px 8px;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+  border-radius: 3px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

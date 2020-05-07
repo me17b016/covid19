@@ -1,0 +1,64 @@
+.list-card {
+  height: 100px;
+  width: 480px;
+  /* background-color: lawngreen; */
+  border: 1px solid gray;
+  margin: 10px 0px;
+  -webkit-box-shadow: 6px 4px 23px -2px rgba(74,74,89,0.72);
+  -moz-box-shadow: 6px 4px 23px -2px rgba(74,74,89,0.72);
+  box-shadow: 6px 4px 23px -2px rgba(74,74,89,0.72);
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-card-Green {
+  background-color: #76ff03;
+  color: black;
+}
+.list-card-Orange {
+  background-color: #ffa726;
+}
+.list-card-Red {
+  background-color: #f44336;
+}
+
+.list-card-district {
+  flex: 1;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 10px;
+  /* color: whitesmoke; */
+}
+
+.list-card-extra {
+  flex: 2.5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-card-state {
+  font-size: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-right: 10px;
+}
+.list-card-zone {
+  margin-left: 10px;
+  font-size: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media only screen and (max-width: 600px) {
+  .list-card {
+    height: 80px;
+    width: 300px;
+    /* background-color: lawngreen; */
+    border: 1px solid gray;
+    margin: 10px 0px;
+  }
+}
