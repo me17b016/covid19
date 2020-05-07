@@ -35,7 +35,6 @@ class App extends Component {
       }
       districtsData = {...districtsData, [districtUniqueKey] : dataObject}
     }
-    console.log(districtsData)
     this.setState(() => ({ districts, districtsData }))
   }
 
