@@ -24,9 +24,10 @@
 .searchbox-inputbox {
   flex: 3;
   margin: 0px;
+  height: inherit;
 }
 .searchbox-input{
-  height: 40px;
+  height: 42px;
   border-radius: 0px 4px 4px 0px;
   border: none;
   outline: none;
@@ -45,7 +46,6 @@
   height: auto;
   max-height: 400px;
   width: 50%;
-  background-color: aqua;
   overflow-y: auto;
   display: absolute;
   position: absolute;
