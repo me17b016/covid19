@@ -17,8 +17,7 @@ class App extends Component {
       input : ""
     }
   }
-
-  async componentDidMount () {
+  getData = async () => {
     const response = await axios.get('https://api.covid19india.org/zones.json');
     const data = response.data
     const allDistricts = data.zones
@@ -36,6 +35,19 @@ class App extends Component {
       districtsData = {...districtsData, [districtUniqueKey] : dataObject}
     }
     this.setState(() => ({ districts, districtsData }))
+    console.log('Successfully data updated')
+  }
+
+  async componentDidMount () {
+    console.log('rajgarg covid19 morff challenge');
+    try {
+      this.getData()
+      setInterval(async () => {
+        this.getData()
+      }, 10000)
+    } catch (err) {
+      console.log(err)
+    }
   }
 
   districtSelected = (name) => {
